@@ -1,0 +1,72 @@
+@import "painting.css";
+@import "board.css";
+@import "header.css";
+
+*
+{
+    box-sizing: border-box;
+}
+
+.website-button
+{
+    margin-right: 0.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.website-button:hover
+{
+    border: 3px solid hsl(203, 92%, 45%);
+}
+
+body
+{
+    background-image: url("../images/baby-bg.jpg");
+    margin: 0;
+}
+
+.inline-block
+{
+    display: inline-block;
+}
+
+.flex
+{
+    display: grid;
+    grid-template-columns: 15rem;
+    column-gap: 1rem;
+    margin-left: 2rem;
+    box-sizing: border-box;
+}
+
+.flex-row
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-row
+    {
+        flex-direction: column-reverse;
+    }
+
+    .flex
+    {   
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        margin: 0;
+    }
+
+    .board
+    {
+        width: 11rem;
+        font-size: 1.5rem;
+    }
+}

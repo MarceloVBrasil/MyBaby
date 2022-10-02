@@ -1,0 +1,28 @@
+.header
+{
+    width: 100vw;
+    height: 4rem;
+    background-color: lightgreen;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baby-picture
+{
+    width: 3rem;
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .baby-picture
+    {
+        display: none;
+    }
+    .baby-picture:first-child
+    {
+        display: inline;
+    }
+
+}
