@@ -1,4 +1,3 @@
-import thomas01 from "../images/thomas-01.jpg";
 import pic1 from "../images/1.jpg";
 import pic2 from "../images/2.jpg";
 import pic3 from "../images/3.jpg";
