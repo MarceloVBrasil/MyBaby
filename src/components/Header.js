@@ -26,6 +26,6 @@ export default function Header() {
   );
 
   function goToMyWebsite() {
-    window.open("https://www.marcelo-brasil.com");
+    window.open("https://marcelobrasil.ca/");
   }
 }

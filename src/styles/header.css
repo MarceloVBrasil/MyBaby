@@ -5,14 +5,14 @@
     background-color: lightgreen;
     margin-bottom: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .baby-picture
 {
     width: 3rem;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 @media screen and (max-width: 500px) {

@@ -5,6 +5,8 @@
 *
 {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .website-button
@@ -24,8 +26,7 @@
 
 body
 {
-    background-image: url("../images/baby-bg.jpg");
-    margin: 0;
+    background-image: url("../images/baby-bg.jpg");    
 }
 
 .inline-block
